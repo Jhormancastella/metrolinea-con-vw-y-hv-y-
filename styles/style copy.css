@@ -82,7 +82,7 @@ body {
 }
 
 .tarjeta {
-    top: 10vw;
+    top: 5vw;
     left: 20vw;
     width: 50vw;
 }
@@ -140,7 +140,7 @@ body {
     font-size: 1.5vw;
     color: white;
     top: 9vw;
-    right: -9.3vw;
+    right: -8.3vw;
     width: auto;
     z-index: 1;
 }
@@ -155,35 +155,55 @@ body {
 .num04 {
     color: rgb(151, 150, 150);
     top: 15vw;
-    right: -13%;
+    right: -10%;
 }
 
 .num05 {
     color: white;
     top: 25vw;
-    right: -13%;
+    right: -10%;
 }
 
 .num06 {
     color: rgb(151, 150, 150);
     top: 35vw;
-    right: -13%;
+    right: -10%;
 }
 
 .p {
-    font-size: 1.3em;
-    top: 45vw;
-    left: 5vw;
-    width: 50vh;
+    font-size: 1em;
+    top: 33vw;
+    left: 30vw;
+    width: auto;
     height: auto;
     z-index: 1;
 }
 
 .pp {
     font-size: 1em;
-    top: 49vw;
-    left: 5vw;
+    top: 39vw;
+    left: 35vw;
     width: auto;
     height: auto;
     z-index: 1;
 }
+.ppp {
+    font-size: em;
+    top: 43vw;
+    left: 39vw;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+.pppp {
+    border-radius: 5%;
+    border: solid rgb(110, 110, 110) 2px;
+    padding: 3px 25px 3px 25px;
+    font-size: 1em;
+    top: 48vw;
+    left: 40vw;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
