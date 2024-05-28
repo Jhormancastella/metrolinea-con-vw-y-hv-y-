@@ -6,14 +6,14 @@
 }
 
 body {
-    height: 100vw;
+    height: 100vh;
     background: linear-gradient(gray,rgb(228, 228, 228));
 }
 
 .principal {
     position: relative;
     width: 90%;
-    max-width: 135.9vw;
+    max-width:  135.9vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -32,9 +32,10 @@ body {
 }
 
 .logo {
+    font-size: 2vw;
     top: 3vw;
     left: 4vw;
-    width: 12v;
+    width: 25%;
     height: auto;
     z-index: 1;
 }
@@ -48,6 +49,8 @@ body {
 }
 
 .comp, .sldo {
+    color: black;
+    text-decoration: none;
     background-color: white;
     font-size: 2vw;
     position: absolute;
@@ -55,11 +58,15 @@ body {
 }
 
 .comp {
+    width: 25%;
+    height: auto;
+    z-index: 1;
     top: 2.5vw;
     left: 65%;
 }
 
 .sldo {
+
     top: 2.5vw;
     left: 83%;
 }
@@ -82,7 +89,7 @@ body {
 }
 
 .tarjeta {
-    top: 5vw;
+    top: 10vw;
     left: 20vw;
     width: 50vw;
 }
@@ -140,7 +147,7 @@ body {
     font-size: 1.5vw;
     color: white;
     top: 9vw;
-    right: -8.3vw;
+    right: -9.3vw;
     width: auto;
     z-index: 1;
 }
@@ -155,54 +162,35 @@ body {
 .num04 {
     color: rgb(151, 150, 150);
     top: 15vw;
-    right: -10%;
+    right: -11vw;
 }
 
 .num05 {
     color: white;
     top: 25vw;
-    right: -10%;
+    right: -11vw;
 }
 
 .num06 {
     color: rgb(151, 150, 150);
     top: 35vw;
-    right: -10%;
+    right: -11vw;
 }
 
 .p {
-    font-size: 1em;
-    top: 33vw;
-    left: 30vw;
-    width: auto;
+    font-size: 2vw;
+    top: 43vw;
+    left: 5vw;
+    width: 50%;
     height: auto;
     z-index: 1;
 }
 
 .pp {
-    font-size: 1em;
-    top: 39vw;
-    left: 35vw;
-    width: auto;
-    height: auto;
-    z-index: 1;
-}
-.ppp {
-    font-size: em;
-    top: 43vw;
-    left: 39vw;
-    width: auto;
-    height: auto;
-    z-index: 1;
-}
-.pppp {
-    border-radius: 5%;
-    border: solid rgb(110, 110, 110) 2px;
-    padding: 3px 25px 3px 25px;
-    font-size: 1em;
-    top: 48vw;
-    left: 40vw;
-    width: auto;
+    font-size: 2vw;
+    top: 46vw;
+    left: 5vw;
+    width: 50%;
     height: auto;
     z-index: 1;
 }
